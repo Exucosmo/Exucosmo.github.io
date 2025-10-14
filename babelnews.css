@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'NewsFont';
+    src: url(/fonts/Bittypix\ Monospace.woff);
+}
+
+@font-face {
+    font-family: 'RetroFont';
+    src: url(/fonts/Perfect\ DOS\ VGA\ 437.ttf);
+}
+
+* {
+    box-sizing: content-box;
+    font-family: 'NewsFont';
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-self: flex-start;
+
+    width: 99.7%;
+    margin-bottom: 30px;
+
+    background-color: rgb(50, 50, 50);
+    border: 3px rgb(0, 0, 0) inset;
+    color: aliceblue;
+}
+
+.header img {
+    margin: 10px;
+    margin-right: 25px;
+}
+
+.overview {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+
+    height: 50%;
+    width: 70%;
+    margin-bottom: 2.5%;
+
+    background-color: grey;
+    border: 5px rgb(0, 0, 0) inset;
+}
+
+.overview img {
+    margin: 20px;
+    border: 5px rgb(0, 0, 0) inset;
+}
+
+.overviewtext {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    text-align: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.overviewtext h2 {
+    text-decoration: underline;
+}
+
+.overviewtext p {
+    font-size: 1.6rem;
+    font-family: "RetroFont";
+}
+
+.newscontainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 70%;
+}
+
+.newsitem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 4%;
+
+    background-color: grey;
+    border: 5px rgb(0, 0, 0) inset;
+}
+
+.newsitem img {
+    margin: 10px;
+    border: 5px rgb(0, 0, 0) inset;
+}
+
+.newsitem h2 {
+    text-align: center;
+    justify-self: center;
+
+    margin-left: 20px;
+    margin-right: 20px;
+
+    font-size: 2rem;
+    font-family: 'RetroFont', Times, serif;
+}
+
+.newsitemend {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+    margin-bottom: 4%;
+
+    background-color: grey;
+    border: 5px rgb(0, 0, 0) inset;
+    justify-content: center;
+}
