@@ -131,14 +131,15 @@ body {
 /* Responsive layout for small screens */
 @media (max-width: 768px) {
     body {
-        width: 94.7vw;
+        width: 100vw;
     }
 
     .header {
+        width: 104%;
         align-self: center;
         flex-direction: column;
         text-align: center;
-        padding: 10px;
+        padding-bottom: 10px;
     }
 
     .header img {
@@ -152,7 +153,7 @@ body {
     }
 
     .overview img {
-        width: 80%;
+        width: 70%;
         height: auto;
         margin: 0 auto 20px auto;
     }
