@@ -355,24 +355,6 @@ a {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
-.poetryimage {
-    height: auto;
-    width: 50%;
-    align-self: center;
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
-    margin-left: 2.5%;
-
-    opacity: 1;
-    transition: .25s ease;
-    background-image: url("rankingimages/AngelOS.png");
-    background-size: cover;
-    
-    background-color: rgb(150, 150, 150);
-    border: 2px rgb(210, 210, 210) outset;
-    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-}
-
 .gundamimage:hover {
     background-image: url("rankingimages/AngelOSOpen.gif");
     background-size: cover;
